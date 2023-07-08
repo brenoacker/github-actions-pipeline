@@ -18,8 +18,6 @@ jobs:
   run-windows-command:
     runs-on: ubuntu-latest
     steps:
-      - name: Directory Powershell
-        run: Get-Location
       - name: Directory bash
         run: pwd
         shell: bash
